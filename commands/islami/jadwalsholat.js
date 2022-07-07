@@ -1,7 +1,7 @@
 const { fetchUrl } = require("../../lib/Function")
 
 if (!text) throw `Which City Name\nExample : ${prefix + command} Yogyakarta`
-get_result = await fetchJson(`https://api.lolhuman.xyz/api/sholat/${text}?apikey=${setting.lolkey}`)
+get_result = await fetchJson(`https://api.zenz.xyz/api/sholat/${text}?apikey=${setting.lolkey}`)
 get_result = get_result.result
 txt_nya = `🌏 Wilayah : ${get_result.wilayah}\n`
 txt_nya += `💌 Date : ${get_result.tanggal}\n`
