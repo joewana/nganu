@@ -6,8 +6,8 @@
   "options": {
     "autoRead": false,
     "self": false,
-    "limitCount": 20,
-    "limitGame": 20
+    "limitCount": 1000,
+    "limitGame": 1000
   },
   "exif": {
     "packname": "zenzapi",
